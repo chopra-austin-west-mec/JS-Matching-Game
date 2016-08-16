@@ -3,6 +3,8 @@ h1{
 }
 body{
     text-align: center;
+    background-color: blue;
+    color: white;
 
 }
 img{
@@ -11,11 +13,19 @@ img{
 }
 div{
     position:absolute;
-    width:500px;
-    height:500px
+    margin-left: 100px;
+    width:600px;
+    height:600px;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
     
 }
 #rightSide {
-    left: 500px;
-    border-left: 1px solid black
+    left: 600px;
+    border-right: 2px solid white;
+}
+
+img{
+    size: 50%;
 }
